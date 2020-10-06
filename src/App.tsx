@@ -1,9 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "react-bootstrap/esm/Navbar";
-import Nav from "react-bootstrap/esm/Nav";
-import { Button, Form, FormControl } from "react-bootstrap";
+import { Button, Form, FormControl, Navbar, Nav } from "react-bootstrap";
 const About = lazy(() => import("./About"));
 const Home = lazy(() => import("./Home"));
 
